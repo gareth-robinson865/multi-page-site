@@ -1,0 +1,22 @@
+{
+    "articles": [
+        {
+            "id": "1",
+            "title": "Welcome To The Site",
+            "author": "Mario",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "id": "2",
+            "title": "5 React Tips for Beginners",
+            "author": "Luigi",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Tristique senectus et netus et malesuada fames ac turpis egestas. Luctus venenatis lectus magna fringilla urna. Viverra aliquet eget sit amet. Pellentesque id nibh tortor id aliquet lectus proin. Placerat vestibulum lectus mauris ultrices eros in cursus. Mauris nunc congue nisi vitae suscipit tellus mauris a. Luctus venenatis lectus magna fringilla urna porttitor rhoncus. Ac tortor dignissim convallis aenean et. Orci sagittis eu volutpat odio. Sit amet est placerat in egestas. Elementum facilisis leo vel fringilla est ullamcorper eget. Lacus luctus accumsan tortor posuere ac. Odio tempor orci dapibus ultrices in iaculis."
+        },
+        {
+            "id": "1",
+            "title": "vs code best packages",
+            "author": "Mario",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor nec feugiat nisl pretium. Mauris sit amet massa vitae tortor. Eget aliquet nibh praesent tristique. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. Felis eget velit aliquet sagittis id. Lectus magna fringilla urna porttitor. Auctor urna nunc id cursus metus aliquam eleifend mi. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Massa id neque aliquam vestibulum morbi blandit. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam. Maecenas volutpat blandit aliquam etiam."
+        }
+    ]
+}
