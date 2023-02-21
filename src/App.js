@@ -17,6 +17,12 @@ function App() {
         <Route path="/">
           <Home />
         </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
       </BrowserRouter>
     </div>
   );
