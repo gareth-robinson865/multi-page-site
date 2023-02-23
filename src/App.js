@@ -14,15 +14,15 @@ function App() {
           <h1>My Articles</h1>
         </nav>
         <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
