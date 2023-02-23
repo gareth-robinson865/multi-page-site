@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <nav>
           <h1>My Articles</h1>
-          <a href="/">Home</a>
-          <a href="/contact">Contact Me</a>
-          <a href="/about">About Me</a>
+          <Link to="/">Home</Link>
+          <Link to="/contact">Contact Me</Link>
+          <Link to="/about">About Me</Link>
         </nav>
         <Switch>
           <Route exact path="/">
