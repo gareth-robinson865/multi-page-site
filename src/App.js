@@ -13,7 +13,7 @@ function App() {
         <nav>
           <h1>My Articles</h1>
         </nav>
-
+        <Switch>
         <Route path="/">
           <Home />
         </Route>
@@ -23,6 +23,7 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );
