@@ -13,8 +13,8 @@ function App() {
         <nav>
           <h1>My Articles</h1>
           <Link to="/">Home</Link>
-          <Link to="/contact">Contact Me</Link>
           <Link to="/about">About Me</Link>
+          <Link to="/contact">Contact Me</Link>
         </nav>
         <Switch>
           <Route exact path="/">
