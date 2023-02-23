@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
-
+//link components used instead of anchor tags, where "to" is essentially the href
 function App() {
   return (
     <div className="App">
