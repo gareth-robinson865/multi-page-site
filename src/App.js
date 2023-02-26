@@ -8,6 +8,7 @@ import Contact from './pages/Contact'
 //link components used instead of anchor tags, where "to" is essentially the href
 //This currently is not working and im not sure why
 //need to potentiall google the NavLink to prop
+//yet another comment
 function App() {
   return (
     <div className="App">
