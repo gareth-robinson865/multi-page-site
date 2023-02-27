@@ -13,7 +13,8 @@ function App() {
       <BrowserRouter>
         <nav>
           <h1>My Articles</h1>
-          <Link to='/'>Home</Link>
+          <Link to="/">Home</Link>
+          <Link to="/About">About</Link>
         </nav>
         <Switch>
           <Route exact path="/">
