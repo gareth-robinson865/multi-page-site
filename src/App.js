@@ -14,6 +14,7 @@ function App() {
         <nav>
           <h1>My Articles</h1>
           <a href='/Contact'>Contact Me</a>
+          <a href='/About'>About Me</a>
         </nav>
         <Switch>
           <Route exact path="/">
