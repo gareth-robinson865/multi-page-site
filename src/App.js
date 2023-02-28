@@ -13,9 +13,9 @@ function App() {
       <BrowserRouter>
         <nav>
           <h1>My Articles</h1>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact Me</Link>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/contact">Contact Me</NavLink>
         </nav>
         <Switch>
           <Route exact path="/">
