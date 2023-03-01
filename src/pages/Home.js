@@ -3,7 +3,7 @@ import { useFetch } from '../hooks/useFetch';
 export default function Home() {
 
   const { data: articles, isPending, error} = useFetch('http://localhost:3000/articles')
-  
+  //need to continue
   return (
     <div>
         <h2>Homepage</h2>
