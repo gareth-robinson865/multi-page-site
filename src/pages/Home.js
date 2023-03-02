@@ -12,12 +12,12 @@ export default function Home() {
       <h2>Articles</h2>
       {isPending && <div>Loading...</div>}
       {error && <div>Sorry there was an error. It is as follows: {error}</div>}
-      {articles && articles.map((article) => {
+      {articles && articles.map((article) => (
         <div key={article.id} className="card">
           <h3>{article.title}</h3>
           <p>{article.author}</p>
         </div>
-      })} 
+      ))} 
     </div>
   )
 }
