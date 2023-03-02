@@ -2,7 +2,7 @@
 export default function Article() {
   return (
     <div>
-        Article
+        Article page is here
     </div>
   )
 }
