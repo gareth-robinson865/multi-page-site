@@ -6,7 +6,8 @@ export default function Home() {
   
   return (
     <div className="home">
-      <h2></h2>
+      <h2>Articles</h2>
+      {isPending && <div>Loading...</div>}
     </div>
   )
 }
