@@ -5,8 +5,8 @@ export default function Home() {
   const { data: articles, isPending, error} = useFetch('http://localhost:3000/articles')
   
   return (
-    <div>
-      
+    <div className="home">
+
     </div>
   )
 }
