@@ -8,7 +8,7 @@ export default function Home() {
     <div className="home">
       <h2>Articles</h2>
       {isPending && <div>Loading...</div>}
-      {error && <div>Sorry there was an error</div>}
+      {error && <div>Sorry there was an error. It is as follows: {error}</div>}
     </div>
   )
 }
