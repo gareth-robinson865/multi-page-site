@@ -7,7 +7,8 @@ export default function Article() {
   const { data: article, isPending, error} = useFetch(url)
   return (
     <div>
-        
+        {isPending && <div>Loading...</div>}
+        {error && <div>Sorry there is an error {error}</div>}
     </div>
   )
 }
