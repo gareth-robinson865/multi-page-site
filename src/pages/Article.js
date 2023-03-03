@@ -7,7 +7,7 @@ export default function Article() {
   const { data: article, isPending, error} = useFetch(url)
   return (
     <div>
-        Article page is here { id }
+        
     </div>
   )
 }
