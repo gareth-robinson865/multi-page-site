@@ -9,6 +9,11 @@ export default function Article() {
     <div>
         {isPending && <div>Loading...</div>}
         {error && <div>Sorry there is an error {error}</div>}
+        {article && (
+          <div>
+            <h2>{article.title}</h2>
+          </div>
+        )}
     </div>
   )
 }
