@@ -12,6 +12,8 @@ export default function Article() {
         {article && (
           <div>
             <h2>{article.title}</h2>
+            <h4>Author: {article.author}</h4>
+            <p>{article.body}</p>
           </div>
         )}
     </div>
