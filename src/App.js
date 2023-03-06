@@ -32,7 +32,7 @@ function App() {
             <Article />
           </Route>
           <Route path="*">
-
+            <Redirect to="/" />
           </Route>
         </Switch>
       </BrowserRouter>
