@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams } from "react-router-dom"
+import { useParams, useHistory } from "react-router-dom"
 import { useFetch } from "../hooks/useFetch";
 
 export default function Article() {
@@ -9,7 +9,7 @@ export default function Article() {
 
   useEffect(() = {
     if(error) {
-      
+
     }
   }, [error])
   return (
