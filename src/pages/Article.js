@@ -8,7 +8,9 @@ export default function Article() {
   const { data: article, isPending, error } = useFetch(url)
 
   useEffect(() = {
-    
+    if(error) {
+      
+    }
   }, [error])
   return (
     <div>
