@@ -10,7 +10,7 @@ export default function Article() {
 
   useEffect(() => {
     if(error) {
-
+      history.push('/')
     }
   }, [error])
   return (
