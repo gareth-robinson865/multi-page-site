@@ -7,7 +7,7 @@ export default function Article() {
   const url = 'http://localhost:3000/articles/' + id
   const { data: article, isPending, error } = useFetch(url)
 
-  useEffect(() = {
+  useEffect(() => {
     if(error) {
 
     }
