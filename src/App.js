@@ -31,6 +31,9 @@ function App() {
           <Route path="/article/:id">
             <Article />
           </Route>
+          <Route path="*">
+            
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
